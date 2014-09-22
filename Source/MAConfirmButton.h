@@ -1,14 +1,9 @@
 //
 //  MAConfirmButton.h
 //
-//  Created by Mike on 11-03-28.
-//  Copyright 2011 Mike Ahmarani. All rights reserved.
-//
 
 #import <UIKit/UIKit.h>
 #import <QuartzCore/QuartzCore.h>
-
-@class MAConfirmButtonOverlay;
 
 typedef enum {
   MAConfirmButtonToggleAnimationLeft = 0,
