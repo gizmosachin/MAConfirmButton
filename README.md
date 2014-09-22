@@ -1,6 +1,6 @@
 ## MAConfirmButton
 
-MAConfirmButton is an animated subclass of UIButton that replicates and improves upon the behavior of the iTunes and App Store "Buy Now" buttons.
+MAConfirmButton is a subclass of UIButton that mirrors the behavior of system buy buttons on iOS.
 
 ![MAConfirmButton](https://raw.github.com/gizmosachin/MAConfirmButton/master/MAConfirmButton.png)
 
