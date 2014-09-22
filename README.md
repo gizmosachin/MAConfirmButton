@@ -2,11 +2,11 @@
 
 MAConfirmButton is an animated subclass of UIButton that replicates and improves upon the behavior of the iTunes and App Store "Buy Now" buttons.
 
-![MAConfirmButton](https://raw.githubusercontent.com/gizmosachin/MAConfirmButton/master/MAConfirmButton.png)
+![MAConfirmButton](https://raw.github.com/gizmosachin/MAConfirmButton/master/MAConfirmButton.png)
 
 ## Installation
 
-[CocoaPods](http://cocoapods.org) is the recommended method of installing MAConfirmButton, just add the following line to your `Podfile`:
+[CocoaPods](http://cocoapods.org) is the recommended method of installing MAConfirmButton. Simply add the following line to your `Podfile` and run `pod install`.
 
     pod 'MAConfirmButton', :git => 'https://github.com/gizmosachin/MAConfirmButton'
 
@@ -29,10 +29,14 @@ MAConfirmButton is an animated subclass of UIButton that replicates and improves
 
 ### Anchor
 
-It is important that the anchor be set in order to position this button in the view you are adding it to (height\width of the frame are calculated automatically). For now, the anchor point is the **top right** and the button is always aligned right, like the AppStore.
+It is important that the anchor be set in order to position this button in the view you are adding it to (height/width of the frame are calculated automatically). The anchor point is the **top right** and the button is always aligned right, just like iTunes / App Store buttons.
 
 	- (void)setAnchor:(CGPoint)anchor;
 
 ### Change State
 
 	- (void)disableWithTitle:(NSString *)disabledString;
+
+## License
+
+MAConfirmButton is available under the MIT license, see the [LICENSE](https://github.com/gizmosachin/MAConfirmButton/blob/master/LICENSE) file for more information. MAConfirmButton was originally written by [Mike Ahmarani](https://github.com/mikeahmarani), though this fork is maintained by [Sachin Patel](https://github.com/gizmosachin).
