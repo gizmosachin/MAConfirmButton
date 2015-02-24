@@ -3,7 +3,6 @@
 //
 
 #import "MAConfirmButton.h"
-#import "UIColor-Expanded.h"
 
 #define kHeight 26.0
 #define kPadding 20.0
